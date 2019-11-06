@@ -1,3 +1,7 @@
-#### Footer col 1
+#### Footer
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Detta är footer delen.
+
+Denna används till Validatorer
+
+Samt mina profiler på nätet.

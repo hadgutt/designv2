@@ -1,11 +1,13 @@
 /*!
- * Stylesheet for design kmom01.
+ * Mitt första stylesheet.
  *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
+
+ * Denna stylesheet är skapad som en uppgift i kursmoment ett inom kursen design.
+ * Allting ser inte helt bra ut responsivt, men det kommer uppdateringar.
  */
 
 /* Hide submenu, leave this to kmom02 */
+
 .rm-desktop ul {
     display: none;
 }
@@ -13,4 +15,382 @@
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+}
+
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Calibri", "sans-serif";
+}
+
+body {
+    margin:0;
+}
+
+h1 {
+    font-size:2em;
+    margin:.67em 0;
+}
+
+h3, h4 {
+    margin: .67em 0;
+    padding-left: 1em;
+}
+
+div.block {
+    display: inline-block;
+}
+
+.wrap-all {
+    width: auto;
+}
+
+.block p {
+    padding-left: 1.2em;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+a {
+    background-color:transparent;
+}
+
+html {
+    background-color: #778ca3;
+    overflow-y: scroll;
+}
+
+li {
+    display: block;
+}
+
+div {
+    display: inline-block;
+}
+
+body {
+    background-color: #dcdde1;
+    width: auto;
+}
+
+.my-navbar li {
+    display: inline-block;
+    margin: 4.6em;
+}
+
+.next-previous {
+    margin-bottom: 5%;
+    display: block;
+}
+
+.next {
+    float: right;
+}
+
+.breadcrumb-list li {
+    display: inline-block;
+}
+
+.site-footer p {
+    float: bottom;
+}
+
+.outer-wrap-flash {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.outer-wrap-breadcrumb {
+    display: table-cell;
+    padding-left: 1em;
+    width: 80%;
+    line-height: 100%;
+    vertical-align: top;
+    height: 100%;
+}
+
+.outer-wrap-main {
+    display: table-cell;
+    padding-left: 0.1em;
+    width: 100%;
+    line-height: 100%;
+    height: 100%;
+    float: left;
+}
+
+.outer-wrap-main a {
+    display: grid;
+}
+
+.outer-wrap-flash {
+    padding-left: 2.5em;
+}
+
+.region-header-col-1 {
+    display: none;
+}
+
+a {
+    color: #965500;
+}
+
+a:visited {
+    color: #965500;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.author-byline {
+    border: 1px solid #ccc;
+    margin-bottom: 46px;
+    padding: 1em;
+}
+
+.author-byline::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.inner-wrap {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+.inner-wrap.inner-wrap-header {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+.row {
+    display: block;
+    width: 101.04166667%;
+    margin-left: -.52083333%;
+    margin-right: -.52083333%;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile {
+    text-align: right;
+}
+
+.region-navbar {
+    display: inline-block;
+    float: left;
+    width: 98.95833333%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+.region-breadcrumb {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+.region-flash {
+    display: inline;
+    float: left;
+    width: auto;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+
+.col2 {
+    display: inline;
+    float: left;
+    width: 48.95833333%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+.col3 {
+    display: inline;
+    float: left;
+    width: 32.29166667%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+.col4 {
+    display: inline;
+    float: left;
+    width: 23.95833333%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+.column {
+    height: 100%;
+}
+
+.columns::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.region-main {
+    display: inline-block;
+    float: left;
+    width: 73.95833333%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+    margin-left: 8.85416667%;
+}
+
+.region-main.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 65.625%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+    margin-left: 4.6875%;
+}
+
+.wrap-sidebar .block {
+    margin-bottom: 48px;
+    padding-left: 50px;
+}
+
+.wrap-sidebar .block h4 {
+    border-top: 1px solid #ccc;
+    background-image: linear-gradient(to right, #aa360d, #dcdde1);
+    color: #ddd;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    display: inline-block;
+    width: 23.95833333%;
+    margin-right: .52083333%;
+    margin-left: .52083333%;
+}
+
+.region-sidebar-right {
+    color: #111;
+    padding-left: 0.5em;
+}
+
+.outer-wrap-footer {
+    background-color: #4b6584;
+    margin-top: 30px;
+    padding-bottom:48px;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+}
+
+div .block {
+    display: inline;
+    float: right;
+}
+
+.footer-column-wrapper {
+    color: #ddd;
+    border-bottom: 1px solid #666;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
+    width: 960px;
+}
+
+.footer-column-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.footer-column-wrapper a {
+    color: inherit;
+}
+
+.footer-column-x {
+    padding-bottom: 24px;
+    padding-right: 0.5em;
+}
+
+.footer-column-1,
+.footer-column-2 {
+    border-right: 1px solid #666;
+}
+
+.footer-column-2,
+.footer-column-3 {
+    padding-left: 0.5em;
+}
+
+.site-footer {
+    color: #aaa;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.site-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.site-footer li {
+    display: block;
+}
+
+.site-footer li::after {
+    content:" • ";
+}
+
+.site-footer li:last-child::after {
+    content:none;
+}
+
+.site-footer a {
+    color:inherit
+}
+
+.site-footer {
+    display: inherit;
+}
+
+@media screen and (max-width: 1280px) {
+    .region-flash img {
+        display: none;
+    }
+
+    .my-navbar li {
+        display: inline;
+        padding: auto;
+        margin: auto;
+    }
+
+    .wrap-sidebar .block {
+        margin-bottom: 0;
+        padding-left: 0;
+    }
 }

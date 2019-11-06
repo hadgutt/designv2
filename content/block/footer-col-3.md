@@ -1,3 +1,7 @@
-#### Footer col 3
+#### Hitta mig
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[Instagram](https://www.instagram.com/giztorp/ "Instagram")
+
+[Discogs](https://www.discogs.com/en/user/giztorp/collection "Discogs")
+
+[Github](https://github.com/hadgutt "Github")
