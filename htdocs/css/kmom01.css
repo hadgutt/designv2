@@ -29,8 +29,8 @@ body {
 }
 
 h1 {
-    font-size:2em;
-    margin:.67em 0;
+    font-size: 2em;
+    margin: .67em 0;
 }
 
 h3, h4 {
@@ -43,7 +43,7 @@ div.block {
 }
 
 .wrap-all {
-    width: auto;
+    width: 960px;
 }
 
 .block p {
@@ -85,8 +85,9 @@ body {
 
 .my-navbar li {
     display: inline-block;
-    margin: 4.6em;
+    margin: 2em;
 }
+
 
 .next-previous {
     margin-bottom: 5%;
@@ -299,17 +300,17 @@ a:visited {
 .outer-wrap-footer {
     background-color: #4b6584;
     margin-top: 30px;
-    padding-bottom:48px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-bottom: 48px;
+    padding-left: 5%;
+    margin: 0;
     width: 960px;
     display: flex;
     justify-content: center;
 }
 
-div .block {
-    display: inline;
-    float: right;
+div .block .site-footer {
+    display: flex;
+    justify-content: center;
 }
 
 .footer-column-wrapper {
@@ -333,17 +334,18 @@ div .block {
 
 .footer-column-x {
     padding-bottom: 24px;
-    padding-right: 0.5em;
+    padding-right: 5em;
 }
 
 .footer-column-1,
 .footer-column-2 {
     border-right: 1px solid #666;
+    padding-left: 1em;
 }
 
 .footer-column-2,
 .footer-column-3 {
-    padding-left: 0.5em;
+    padding-left: 1em;
 }
 
 .site-footer {
